@@ -1,3 +1,31 @@
-.center-block {
-  float: none !important
+.center-row {
+  position: relative;
+}
+
+.center-col {
+  position: absolute;
+  width: 100%; /*set to 100% so text-align will fall in the center of the image*/
+  text-align: center; /*text will be horizontally centered in the image*/
+}
+
+h1{
+  margin-top: 200px;
+  font-size: 400%;
+}
+
+h3 {
+  margin-top: 350px;
+}
+
+.icons {
+    margin-top: 500px;
+    font-size: 200%;
+}
+
+.icon {
+  margin-right: 10px;
+}
+
+.circular--square {
+  border-radius: 50%;
 }
