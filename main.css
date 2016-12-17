@@ -1,24 +1,25 @@
-.center-row {
-  position: relative;
+html {
+  text-align: center;
 }
 
-.center-col {
-  position: absolute;
-  width: 100%; /*set to 100% so text-align will fall in the center of the image*/
-  text-align: center; /*text will be horizontally centered in the image*/
+.roundimg {
+  border-radius: 50%;
+  margin-top: 20px;
+  width: 50%;
+  max-width: 200px;
 }
 
 h1{
-  margin-top: 200px;
+  margin-top: 30px;
   font-size: 400%;
 }
 
 h3 {
-  margin-top: 350px;
+  margin-top: 50px;
 }
 
 .icons {
-    margin-top: 500px;
+    margin-top: 70px;
     font-size: 200%;
 }
 
@@ -26,13 +27,6 @@ h3 {
   margin-right: 10px;
 }
 
-.roundimg {
-  border-radius: 50%;
-  margin-top: 90px;
-  width: 20%;
-  height: 20%;
-}
-
 .footer {
-  margin-top: 150px;
+  margin-top: 80px;
 }
