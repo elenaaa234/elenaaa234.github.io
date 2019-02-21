@@ -5,12 +5,16 @@ html {
 
 }
 
-a:visited, a:link, a:active{
+a:visited, a:link, a:active {
   text-decoration: none;
   color: rgba(0, 0, 0, 0.6);
 }
 
-a:hover{
+a:hover {
+  color: rgba(0, 0, 255, 0.8);
+}
+
+.highlight {
   color: rgba(0, 0, 255, 0.8);
 }
 
