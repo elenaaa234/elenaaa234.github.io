@@ -2,7 +2,6 @@ html {
   text-align: center;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
   color: #000;
-
 }
 
 a:visited, a:link, a:active {
@@ -42,4 +41,12 @@ h3 {
 
 .icon {
   margin-right: 10px;
+}
+
+.item-zoom:hover img {
+  position: relative;
+	-moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  transition: all 0.3s ease-in-out;
 }
